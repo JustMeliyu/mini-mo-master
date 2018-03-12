@@ -19,10 +19,10 @@ matrix:
     #   env: TOXENV=py36
 
 install: 
-  - ./.travis/install
+  - ./.travis/install.sh tox
 
 script: 
-  - ./.travis/run tox
+  - ./.travis/run.sh
 
 notifications:
   email: false
