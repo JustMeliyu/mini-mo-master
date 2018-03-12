@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # mini-mo
 
 [![Build Status](https://travis-ci.org/philip1134/mini-mo.svg?branch=master)](https://travis-ci.org/philip1134/mini-mo)
@@ -86,3 +87,7 @@ the two types can be mixed, such as:
 minimo 对标准化的支持目前主要表现在基于模板创建项目实例，和基于模板创建用例。 在这一方面 minimo 还有很多的工作需要做。
 
 the purpose of standardization is not "kill personality", but for "one team one style".
+=======
+# mini-mo-master
+minimo 是一款轻量级的自动化框架，主要支持测试自动化，但并不限于测试。
+>>>>>>> ed837cd544d58581b4aa9852a5627a3a460447a9
