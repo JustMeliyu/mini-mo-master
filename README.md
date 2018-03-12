@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-# mini-mo
 
-[![Build Status](https://travis-ci.org/philip1134/mini-mo.svg?branch=master)](https://travis-ci.org/philip1134/mini-mo)
+# mini-mo
 
 minimo 是一款轻量级的自动化框架，主要支持测试自动化，但并不限于测试。 
 项目名称来源于 《机器人总动员》 中的角色小 _M-O_ 机器人，就是下图那货。
