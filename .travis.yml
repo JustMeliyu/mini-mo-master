@@ -12,11 +12,14 @@ matrix:
     #   env: TOXENV=py36
 
 install: 
+  - set -e
+  - set -u
   - pip install tox
   - pip install check-manifest
   - pip install flake8
 
-script: tox
+script: 
+  - ./run tox
 
 notifications:
   email: false
