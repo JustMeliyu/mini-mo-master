@@ -3,10 +3,6 @@ sudo: true
 
 language: python
 
-branches:
-  only:
-    - master
-
 matrix:
   include:
     - python: 2.7
@@ -19,10 +15,12 @@ matrix:
     #   env: TOXENV=py36
 
 install: 
-  - ./.travis/install.sh tox
+  - travis_retry pip install tox;
+  - travis_retry pip install check-manifest;
+  - travis_retry pip install flake8;
 
 script: 
-  - ./.travis/run.sh
+  - travis_retry tox
 
 notifications:
   email: false
